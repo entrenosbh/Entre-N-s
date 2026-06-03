@@ -233,9 +233,11 @@ margin-bottom:30px;
 
 font-family:'Bricolage Grotesque',sans-serif;
 
-font-size:clamp(6rem,15vw,13rem);
+font-size:clamp(4.5rem,8vw,8rem);
 
-line-height:.8;
+line-height:.9;
+
+max-width:900px;
 
 font-weight:800;
 
@@ -545,15 +547,15 @@ color:var(--azul);
 
 font-family:'Bricolage Grotesque',sans-serif;
 
-font-size:clamp(4rem,9vw,9rem);
+font-size:clamp(3rem,6vw,5.5rem);
 
-line-height:.88;
+line-height:.95;
 
 color:var(--rosa);
 
-margin-bottom:100px;
+max-width:800px;
 
-max-width:1100px;
+margin-bottom:40px;
 
 }
 
@@ -626,7 +628,7 @@ BENEFÍCIOS
 
 .beneficios{
 
-padding:220px 0;
+padding:180px 0 100px;
 
 background:#ffffff;
 
@@ -771,7 +773,7 @@ COMO FUNCIONA
 
 .funciona{
 
-padding:220px 0;
+padding:120px 0 180px;
 
 background:#F7F2FF;
 
